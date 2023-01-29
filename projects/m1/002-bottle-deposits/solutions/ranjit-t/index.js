@@ -8,7 +8,7 @@ const refund = parseFloat((amount1*0.10)+(amount2*0.25)).toFixed(2);
 
 if(isNaN(refund))
 {
-  alert(`make sure you enter right values`);
+  alert("make sure you enter right values");
     
 }
 else {
